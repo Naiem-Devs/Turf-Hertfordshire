@@ -1,0 +1,386 @@
+/*   Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  color: #333333;
+  font-size: 14.4px;
+  background-image: url(http://www.turfinhertfordshire.co.uk/images/grass2_bg.jpg);
+  background-repeat: repeat;
+  background-position: center; 
+}
+p{
+  line-height: 16px;
+}
+  
+button {
+  cursor: pointer; }
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none; }
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+a,
+button {
+  color: inherit;
+  outline: medium none;
+  text-decoration: none;
+  }
+
+button:focus, input:focus, input:focus, textarea, textarea:focus {
+  outline: 0; }
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  margin-top: 0px;
+  font-weight: 700
+ }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 500; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 28px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  list-style: none; }
+
+ .padding{
+   padding-right: 0;
+ }
+img{
+  max-width: 100%
+}
+.container{
+  padding:0;
+}
+ 
+/* default-css END 
+================================== */
+ 
+ 
+
+main{  
+  width: 955px;
+  padding:14px 18px;
+  padding-bottom: 30px;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  margin: 15px auto;
+  margin-bottom: 0px;
+  box-shadow: 0px 3px 10px #222222; 
+}
+
+.topbanner {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.topbanner .firstBackg,.topbanner .lastBackg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  z-index: -1;
+} 
+.topbanner .lastBackg {
+  top: auto;
+  bottom: 0;
+  height: 70%;
+} 
+ .contentBlk_img img {
+  float: right;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 300px;
+  box-shadow: 0px 2px 2px #aaaaaa;
+  border-radius: 5px;
+  display: block;
+
+}
+.contentBlk_img {
+  margin-left: 20px;
+}
+.bannerHeade {
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 50px
+}
+.bannerHeade h1 {
+  color: #fff;
+  font-size: 64px;
+}
+p a {
+  color: #267400;
+  text-decoration: underline;
+} 
+.bannerHeade p {
+    background-color: #ffffff;
+    width: 600px;
+    margin: auto;
+    border-radius: 40px;
+    color: #267400;
+    font-style: italic;
+    font-size: 22.5px;
+    padding: 13px 0;
+}
+.order_blk {
+  background: #fff;
+  padding: 10px; 
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px #333333;
+}
+.order_blk h4 {
+  background-color: #673b28;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 40px;
+  font-weight: 600;
+  width: 100%;
+}
+.order_blk p {
+  padding: 0 10px;
+  margin: 0;
+  color: #333;
+}
+.order_blk.right {
+    text-align: right;
+    float: right;
+}
+.order_blk.right h4{
+  background-color: #2f8e00;
+}
+
+.title-banner {
+  text-align: center;
+  color: #fff;
+  font-size: 25.5px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.title-banner b {
+  font-weight: 700;
+}
+.numbers {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  position: relative;
+}
+.numbers h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+}
+.numbers h1 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+.numbers:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 1px;
+  background: white;
+}
+
+.contentBlk {
+  display: flex;
+  align-content: center;
+  margin-top: 50px;
+}
+.contentBlk_wrp {
+}
+.contentBlk_wrp h4 {
+  font-weight: bold;
+  margin: 0px 0px 8px 0px;
+  color: #2f8e00;
+  font-size: 1.6em;
+  padding: 0px;
+}
+.contentBlk_wrp  p {
+  margin-bottom: 8px;
+}
+.theme-btn {
+    background-color: #429036;
+    border-radius: 35px;
+    padding: 5px 30px;
+    text-decoration: none;
+    box-shadow: 0px 1px 1px #333333;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    width: max-content;
+    margin-top: 20px;
+}
+.theme-btn:hover {
+  background-color: #35802a;
+  box-shadow: inset 0px 2px 1px #222222;
+  color: #ffffff !important;
+}
+
+footer{
+  width: 955px;   
+  box-shadow: 0px 3px 10px #222222;  
+  background: rgba(85,155,74,0.8); 
+  padding: 5px 20px; 
+  box-shadow: 0px 3px 10px #222222;
+  border-radius: 0px 0px 10px 10px;
+  color: #ffffff;
+  margin: 15px auto;
+  margin-top: 0px;
+}
+
+.footer-wrp {
+  display: flex;
+}
+footer p {
+  text-align: center;
+}
+.footer-wrp ul {
+  width: 25%;
+  margin: 15px 0;
+}
+.footer-wrp ul li {
+  display: block;
+}
+.footer-wrp ul li a {
+  margin-top: ;
+  display: block;
+}
+
+ 
+
+/* Small Laptop/Tablet screen :1024px - 768. */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   main , footer{
+      width: 98%; 
+  }
+  .numbers h1 { 
+      font-size: 44px; 
+  }
+  .contentBlk_img img { 
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px; 
+  }
+
+
+}
+/* Mobile screen :767px. */
+@media only screen and (max-width: 767px) {
+  main , footer{
+    width: 98%; 
+  }
+  main{
+    padding: 10px
+  }
+  .numbers h1 { 
+      font-size: 18px; 
+  }
+  .contentBlk_img img { 
+    max-width: 230px;
+    max-height: 230px;
+    min-width: 230px;
+    min-height: 230px; 
+  }
+  .numbers h1 span { 
+    font-size: 13px; 
+  }
+  .bannerHeade h1 { 
+      font-size: 38px;
+  }
+  .bannerHeade p { 
+      width: 100%; 
+      font-size: 14.5px;
+      padding: 13px 5px;
+  }
+  .bannerHeade { 
+      margin-top: 5px;
+      margin-bottom: 0;
+  }
+  .order_blk {  
+      width: 100%; 
+      margin-bottom: 15px;
+      text-align: center !important;
+  }
+  .title-banner { 
+      font-size: 18.5px; 
+      margin-top: 10px;
+  }
+  .contentBlk { 
+      margin-top: 30px;
+      flex-wrap: wrap;
+  }
+  .contentBlk_wrp {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .theme-btn { 
+      padding: 5px 20px; 
+      font-size: 15px; 
+      width: 100%;
+      margin-top: 20px;
+      text-align:center;
+  }
+  .footer-wrp { 
+      flex-wrap: wrap;
+  }
+  .footer-wrp ul {
+      width: 190px;
+      margin: 15px 0;
+  }
+
+
+} 
